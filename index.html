@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Environment-aware Video Instance Removal Challenge @ CVPR VGBE 2026</title>
+    <title>Physics-aware Video Instance Removal Challenge @ CVPR VGBE 2026</title>
     <meta name="description"
-        content="Environment-aware Video Instance Removal Challenge at the 1st Workshop on Video Generative Models: Benchmarks and Evaluation (VGBE) at CVPR 2026. Organized by Abaka AI and Texas A&M University." />
+        content="Physics-aware Video Instance Removal Challenge at the 1st Workshop on Video Generative Models: Benchmarks and Evaluation (VGBE) at CVPR 2026. Organized by Texas A&M University, Visko Platform, and Abaka AI." />
     <link rel="icon" href="icon.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,7 +29,7 @@
         <div class="hero-content">
             <img src="icon.png" alt="Challenge Icon" class="hero-icon" />
             <div class="hero-text">
-                <h1>Environment-aware Video Instance Removal Challenge</h1>
+                <h1>Physics-aware Video Instance Removal Challenge</h1>
                 <a href="https://vidgen-bench-eval.github.io/" target="_blank" rel="noopener noreferrer"
                     class="hero-sub">@ CVPR VGBE 2026</a>
             </div>
@@ -193,11 +193,11 @@
     <main class="main-content">
         <div class="container">
 
-            <h2 class="section-title" id="overview">Environment-aware Video Instance Removal</h2>
+            <h2 class="section-title" id="overview">Physics-aware Video Instance Removal</h2>
 
             <div class="content-block intro-block">
-                <p>This challenge is jointly organized by <strong>Abaka AI</strong> and <strong>Texas A&amp;M
-                        University</strong>.</p>
+                <p>This challenge is jointly organized by <strong>Texas A&amp;M University</strong>, <strong>Visko
+                        Platform</strong>, and <strong>Abaka AI</strong>.</p>
                 <p class="prize-note">Prizes are sponsored by Abaka AI. Special thanks to Abaka AI.</p>
             </div>
 
@@ -237,7 +237,7 @@
                     removal requires modeling and regenerating these environmental interactions—such as <strong>shadows,
                         reflections, water ripples, or secondary motion propagation</strong>—to maintain physical
                     plausibility.</p>
-                <p>This challenge focuses on <strong>environment-aware</strong> video restoration. Unlike traditional
+                <p>This challenge focuses on <strong>physics-aware</strong> video restoration. Unlike traditional
                     inpainting, participants must ensure that the "void" left by a removed object is filled with content
                     that is not only visually consistent but also physically coherent with the rest of the scene. This
                     requires a deep semantic understanding of how objects influence their environment through lighting,
@@ -256,11 +256,12 @@
             <!-- Task Definition -->
             <h3 class="subsection-title" id="task">📋 Task Definition</h3>
             <div class="content-block">
-                <p><strong>Task:</strong> Environment-aware Video Instance Removal</p>
+                <p><strong>Task:</strong> Physics-aware Video Instance Removal</p>
                 <p>Given an <strong>Input Video</strong>, a <strong>Text Prompt</strong> describing the object, and a
-                    <strong>Segmentation Mask</strong>, the model must generate a video that:</p>
+                    <strong>Segmentation Mask</strong>, the model must generate a video that:
+                </p>
                 <ul class="criteria-list">
-                    <li><strong>Environmentally Aware:</strong> Realistically reflects environmental changes (shadows,
+                    <li><strong>Physically Aware:</strong> Realistically reflects physical changes (shadows,
                         ripples, etc.) caused by the object's removal.</li>
                     <li><strong>Temporally Coherent:</strong> Maintains stability and visual realism across all frames
                         without flickering.</li>
@@ -308,7 +309,7 @@
                     <li><strong>Human Evaluation:</strong> A panel of experts will score each entry across four key
                         dimensions:
                         <ul>
-                            <li><strong>Environmental Awareness (55%):</strong> Realism of environmental restoration
+                            <li><strong>Physical Awareness (55%):</strong> Realism of physical restoration
                                 (shadows, reflections, etc.).</li>
                             <li><strong>Instruction Following (15%):</strong> Is the correct object removed as
                                 specified?</li>
@@ -370,8 +371,8 @@
     <!-- ========== FOOTER ========== -->
     <footer class="site-footer">
         <div class="container">
-            <p>Environment-aware Video Instance Removal Challenge @ CVPR VGBE 2026</p>
-            <p class="footer-sub">Organized by Abaka AI &amp; Texas A&amp;M University</p>
+            <p>Physics-aware Video Instance Removal Challenge @ CVPR VGBE 2026</p>
+            <p class="footer-sub">Organized by Texas A&amp;M University, Visko Platform &amp; Abaka AI</p>
         </div>
     </footer>
 
